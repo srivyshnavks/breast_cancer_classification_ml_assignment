@@ -99,3 +99,14 @@ breast_cancer_classification_ml_assignment/
    ```
 
 3. Upload the test CSV file and select a model to see predictions and evaluation metrics.
+
+---
+
+## Screenshots
+
+### Application Interface
+
+![Lab Execution Screenshot](screenshot.png)
+
+*Figure: Streamlit application interface showing model selection, dataset upload, and evaluation metrics display.*
+
