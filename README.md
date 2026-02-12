@@ -108,5 +108,4 @@ breast_cancer_classification_ml_assignment/
 
 ![Lab Execution Screenshot](screenshot.png)
 
-*Figure: Streamlit application interface showing model selection, dataset upload, and evaluation metrics display.*
 
