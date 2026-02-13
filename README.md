@@ -8,7 +8,7 @@ Code repository for ML Assignment 2
 
 ## a. Problem Statement
 
-The objective of this project is to build and evaluate multiple machine learning classification models to predict whether a breast tumor is **Malignant (cancerous)** or **Benign (non-cancerous)** based on features computed from digitized images of fine needle aspirate (FNA) of breast masses. Early and accurate detection of breast cancer is critical for effective treatment and improved patient outcomes.
+The objective of this project is to build and evaluate multiple machine learning binary classification models to predict whether a breast tumor is **Malignant (cancerous)** or **Benign (non-cancerous)** based on features computed from digitized images of fine needle aspirate (FNA) of breast masses. Early and accurate detection of breast cancer is critical for effective treatment and improved patient outcomes.
 
 ---
 
