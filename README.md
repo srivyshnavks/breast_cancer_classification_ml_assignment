@@ -26,10 +26,7 @@ The objective of this project is to build and evaluate multiple machine learning
 | **Missing Values** | None |
 
 **Features Description:**
-The dataset contains 30 features computed from cell nuclei present in the images:
-- **Mean features (10):** mean radius, mean texture, mean perimeter, mean area, mean smoothness, mean compactness, mean concavity, mean concave points, mean symmetry, mean fractal dimension
-- **Standard Error features (10):** SE of the above 10 measurements
-- **Worst features (10):** Worst (largest) values of the above 10 measurements
+The dataset contains 30 numerical features computed from cell nuclei.
 
 ---
 
@@ -56,7 +53,7 @@ All 6 classification models were trained and evaluated on the same dataset with 
 
 | Model | Performance Observation |
 |-------|------------------------|
-| **Logistic Regression** | Best performing model with highest accuracy (98.25%), AUC (0.9954), and MCC (0.9623). Achieved perfect balance between precision and recall (both 0.9861), indicating excellent classification for both malignant and benign cases. Feature scaling was applied which contributed to optimal performance. |
+| **Logistic Regression** | Best performing model with highest accuracy (98.25%), AUC (0.9954), and MCC (0.9623). Achieved perfect balance between precision and recall (both 0.9861), indicating excellent classification for both malignant and benign cases - indicating high linear correlation between features and target. Feature scaling was applied which contributed to optimal performance. |
 | **Decision Tree Classifier** | Lowest performing model with accuracy of 91.23% and lowest AUC (0.9157). While precision is reasonable (0.9559), recall is the lowest (0.9028), meaning it misses more actual benign cases. Prone to overfitting on training data, resulting in weaker generalization. |
 | **K-Nearest Neighbors** | Strong performance with 95.61% accuracy and high recall (0.9722). AUC of 0.9788 shows good discriminative ability. Feature scaling helped improve distance-based calculations. Tied with Random Forest for second-best accuracy. |
 | **Gaussian Naive Bayes** | Moderate accuracy (93.86%) but surprisingly high AUC (0.9878), suggesting good probability calibration. The independence assumption between features may not fully hold for this dataset, affecting accuracy. Good recall (0.9583) indicates it catches most benign cases. |
